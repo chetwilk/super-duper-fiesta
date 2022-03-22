@@ -5,7 +5,8 @@
 # created on 20140211
 # previous revision 20170802
 # previous revision 20201230
-# last revision 20210103
+# previous revision 20210103
+# last revision 20220321
 # #####################################################################
 
 
@@ -63,6 +64,9 @@ node_modules/
 # ignore all files starting with . or ~
 .*
 ~*
+
+# Ignore unamed compiled C programs.
+a.out
 
 # -------------------------
 # BEGIN Whitelisted Files
